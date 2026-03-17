@@ -372,7 +372,7 @@ class SilktideCookieBanner {
   // ----------------------------------------------------------------
   getModalContent() {
     const preferencesTitle =
-      this.config.text?.preferences?.title || 'Customize your cookie preferences';
+      this.config.text?.preferences?.title || 'Ihre Cookie-Einstellungen anpassen';
     
     const preferencesDescription =
       this.config.text?.preferences?.description ||
